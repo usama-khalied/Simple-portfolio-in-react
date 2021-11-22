@@ -12,7 +12,7 @@ Aos.init({duration : 2000});
 
 <section  className={`${HeroSecCss['hero-sec']}`}>
 <div className={`${HeroSecCss['hero-text']}`}>
-<h1 data> We’re Creative <br/>
+<h1 data-aos="fade-left"> We’re Creative <br/>
 We Ensure Quality Design</h1>
 
 </div>
