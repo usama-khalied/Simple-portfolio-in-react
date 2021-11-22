@@ -10,6 +10,9 @@ header {
     padding: 3rem 0;
     background-color: rgba(0,0,0,0.2);
 }
+.active {
+    background-color: red;
+}
 nav ul {
     display: flex;
     margin: 0 6rem;
