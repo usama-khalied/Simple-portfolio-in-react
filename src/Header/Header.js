@@ -1,11 +1,19 @@
-import React from 'react'
+import React , {useState} from 'react'
 import logo from '../asset/logo-yellow.png'
 import HeaderCss from './Header.module.css'
 export const Header = () => {
+    const [header, setheader] = useState(false);
+const changeBackground = () => {
+    
+}
+window.addEventListener("scroll", changeBackground);
+
+
+
     return (
     <>
 
-<header>
+<header className="header">
     <div className={`${HeaderCss.logo}`}>
         <img src={logo} alt="logo"/>    </div> 
 
