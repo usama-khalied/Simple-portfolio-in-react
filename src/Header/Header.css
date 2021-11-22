@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    height: 8vh;
+    align-items: center;
+    padding: 3rem 0;
+    background-color: rgba(0,0,0,0.2);
+}
+  .active {
+    background-color: red;
+}
+nav ul {
+    display: flex;
+    margin: 0 6rem;
+}
+.header .logo {
+    margin: 0 3rem;
+    width: 10rem;
+}
+.header .logo img {
+    width: 100%;
+}
+.header ul li {
+    margin: 0 1.2rem 0;
+    color:#FACD8A;
+}
+.header .menu {
+    position: fixed;
+    top: 3%;
+    right: 6%;
+    color: #FACD8A;
+    display: none;
+    font-size: 2rem;
+}
+
+@media (max-width:1024px) {
+    .header ul {
+        display: none;
+    }
+    .header .menu {
+        display: block;
+    }
+}
