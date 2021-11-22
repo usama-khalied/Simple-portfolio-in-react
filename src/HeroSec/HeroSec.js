@@ -1,5 +1,6 @@
 import React from 'react'
 import HeroSecCss from './HeroSec.module.css'
+import  {ScrollContainer }
 export const HeroSec = () => {
     return (
     <>
