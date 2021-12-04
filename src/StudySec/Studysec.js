@@ -13,7 +13,8 @@ export default function Studysec() {
                     <div className={`${StudyCss.col1}`}>
                         <h4> E BANKS THAT ACCEPT US CASINO PLAYERS</h4>
                         <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euiyd tincidunt ut laoreet dolore magna aliquam nibh utpat.Ullamcorper suscipit lobo nibh euiyd tinci- dunt ut laoreet.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem impedit molestias cumque dolorum, sunt, provident blanditiis tempora, aut explicabo error ipsa repudiandae. Dolores eius eaque eum mollitia esse nisi necessitatibus distinctio ea, dolorem non, optio minima temporibus blanditiis, quidem aperiam!</p>
+                        <p className={`${StudyCss.lastp}`}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem impedit molestias cumque dolorum, sunt, provident blanditiis tempora, aut explicabo error ipsa repudiandae. Dolores eius eaque eum mollitia esse nisi necessitatibus distinctio ea, dolorem non, optio minima temporibus blanditiis, quidem aperiam!</p>
+                        <a href="#">View More </a>
                     </div>
                     <div className={`${StudyCss.col2}`}>
                         <img src={studyimage} alt="study" />
