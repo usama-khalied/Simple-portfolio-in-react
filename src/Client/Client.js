@@ -7,8 +7,10 @@ export default class SimpleSlider extends Component{
     render () {
         const settings = {
           dots: true,
+          
           infinite: false,
-          speed: 1000,
+          speed: 500,
+          autoplay : true,
           slidesToShow: 1,
           slidesToScroll: 1
         };
@@ -23,41 +25,20 @@ export default class SimpleSlider extends Component{
       
         <Slider className={`${ClientCss.slider}`} {...settings}>
           <div>
-          <h3>2</h3>
-            <p> lorem
-            </p>
-            <h3>2</h3>
-            <p> lorem
-            </p>            <h3>2</h3>
-            <p> lorem
-            </p>            <h3>2</h3>
-            <p> lorem
-            </p>            <h3>2</h3>
-            <p> lorem
-            </p>            <h3>2</h3>
-            <p> lorem
-            </p>            <h3>2</h3>
-            <p> lorem
-            </p>
+            <h3>1</h3>
+            <h3>1</h3>
+            <h3>1</h3>
+            <h3>1</h3>
+
           </div>
           <div>
             <h3>2</h3>
-            <p> lorem
-            </p>
             <h3>2</h3>
-            <p> lorem
-            </p>            <h3>2</h3>
-            <p> lorem
-            </p>            <h3>2</h3>
-            <p> lorem
-            </p>            <h3>2</h3>
-            <p> lorem
-            </p>            <h3>2</h3>
-            <p> lorem
-            </p>            <h3>2</h3>
-            <p> lorem
-            </p>
+            <h3>2</h3>
+            <h3>2</h3>
+
           </div>
+         
         </Slider>
       </div>
 
