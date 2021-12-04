@@ -3,6 +3,8 @@
     padding: 3rem 0 0;
     width: 100%;
     background-color: black;
+    position: relative;
+    bottom: 0;
     }
 
     .row-study {
