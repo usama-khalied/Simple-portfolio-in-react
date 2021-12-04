@@ -1,0 +1,48 @@
+.Testi {
+    width: 100%;
+    background: url(../asset/bg-3.jpg) fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+padding: 4rem 0 0;
+overflow-x: hidden;
+display: flex;
+justify-content: center;
+}
+
+
+
+.studytext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* .slider {
+    margin: 4rem 0 0;
+    background-color:rgba(0,0,0,0.5);
+
+
+} */
+.slider h3 {
+    color: white;
+}
+.studytext h1 {
+    font-size: 3rem;
+    color: #FACD8A;
+    margin: 0 0 2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.studytext small {
+    padding: 3px 2.5rem 0;
+    color: #FACD8A;
+    background-color: #FACD8A;
+}
+@media (max-width:900px){
+ 
+    .Study-section {
+        height: auto;
+    }
+
+}
