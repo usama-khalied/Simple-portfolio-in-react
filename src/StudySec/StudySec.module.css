@@ -32,6 +32,16 @@ background-color: #171717;
 .col1 p {
     color: gray;
 }
+.col1 .lastp {
+    color: gray;
+    margin: 0 0 3rem;
+}
+.col1 a {
+    padding: 1rem 2rem;
+    background-color: #FACD8A;
+    font-weight: 600;
+    text-transform: uppercase;
+}
 .col1 h4 {
     margin: 0 0 2rem;
     color: #FACD8A;
