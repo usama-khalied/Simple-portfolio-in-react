@@ -39,6 +39,9 @@ padding: 1rem 0 0;
     margin: 1rem 0 0;
     font-size: 1.2rem;
 }
+.slider div img {
+    margin: 0 auto;
+}
 .studytext h1 {
     font-size: 3rem;
     color: #FACD8A;
