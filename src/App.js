@@ -7,6 +7,7 @@ import {HeroSec} from './HeroSec/HeroSec'
 import Studysec from './StudySec/Studysec'
 import BankSec from './BankSec/BankSec'
 import Client from './Client/Client';
+import Company from '../src/Company/Company'
 function App() {
   return (
   <div>
@@ -15,6 +16,7 @@ function App() {
 <Studysec/>
 <BankSec/>
 <Client/>
+<Company/>
 </div>
 );}
 
